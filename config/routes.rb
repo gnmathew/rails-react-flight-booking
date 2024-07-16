@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   root 'homepage#index'
 
   namespace :api do
-    namespace :vi do
+    namespace :v1 do
       resources :airlines, param: :slug
-      resources :reviews, only %i[create destroy]
+      resources :reviews, only: [:create, :destroy]
     end
   end
 
