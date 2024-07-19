@@ -7,8 +7,6 @@
     "@popperjs/core": "^2.11.8",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
     "esbuild": "^0.23.0",
     "nodemon": "^3.1.4",
     "postcss": "^8.4.39",
